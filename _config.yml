@@ -1,0 +1,14 @@
+title: TerangHukum
+description: "Hukum, dijelaskan sampai terang."
+lang: id
+# Alamat pinjaman GitHub Pages (Keputusan E/F) - ganti ke domain kustom kelak bila boss membeli teranghukum.id
+url: "https://teranghukum.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: /:categories/:title/
+exclude:
+  - README.md
+  - TEMPLATE-artikel.md
+defaults:
+  - scope: {path: ""}
+    values: {layout: "default"}
