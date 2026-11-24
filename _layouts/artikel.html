@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — TerangHukum</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+  <main class="content artikel">
+    <h1>{{ page.title }}</h1>
+    {% if page.ringkasan %}<p class="ringkasan">{{ page.ringkasan }}</p>{% endif %}
+    <p class="meta">
+      {% if page.bidang %}Bidang: {{ page.bidang }} &middot; {% endif %}
+      {% if page.jenis %}Jenis: {{ page.jenis }} &middot; {% endif %}
+      {% if page.date %}Terbit: {{ page.date | date: "%d-%m-%Y" }}{% endif %}
+      {% if page.update_terakhir %} &middot; Update terakhir: {{ page.update_terakhir }}{% endif %}
+    </p>
+    <nav class="lompat">
+      <a class="btn" href="#lapis-awam">Baca Penjelasan Sederhana</a>
+      <a class="btn" href="#lapis-mahasiswa">Langsung ke Bedah Hukum</a>
+    </nav>
+    <section id="lapis-awam">
+      <h2>Penjelasan Sederhana</h2>
+      {{ content }}
+    </section>
+    <!-- Di TEMPLATE-artikel.md, isi lapis mahasiswa ditulis di dalam <details id="lapis-mahasiswa"> agar bisa dibuka-tutup -->
+  </main>
+  {% include footer.html %}
+</body>
+</html>
