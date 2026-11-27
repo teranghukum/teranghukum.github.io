@@ -51,3 +51,8 @@ input[type=search]{font-size:1rem;border:1.5px solid var(--line);border-radius:.
 .btn-bagikan{display:inline-flex;align-items:center;gap:.45rem;cursor:pointer;font-size:.95rem;font-family:inherit}
 .btn-bagikan svg{flex:none}
 .bagikan-status{color:var(--navy);font-size:.9rem;min-height:1.2em;margin:.5rem 0 0}
+
+/* Daftar artikel (beranda & halaman bidang) */
+.daftar-artikel{list-style:none;padding:0;margin:1rem 0}
+.daftar-artikel li{border-left:3px solid var(--gold);padding:.35rem 0 .35rem .85rem;margin-bottom:.9rem}
+.daftar-artikel small{color:#5a6a7a}
