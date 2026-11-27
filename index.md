@@ -21,8 +21,20 @@ permalink: /
   <a class="card" href="{{ '/bidang/agraria/' | relative_url }}"><svg viewBox="0 0 48 48" fill="none" stroke="#12263a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 42 C24 42 10 28 10 18 a14 14 0 0 1 28 0 C38 28 24 42 24 42 Z"/><circle cx="24" cy="18" r="5" fill="#c9a227" stroke="none"/><line x1="6" y1="44" x2="42" y2="44" stroke="#c9a227"/></svg><h3>Agraria</h3><p>Tanah, sertifikat, dan sengketa pertanahan.</p></a>
 </div>
 
+## Artikel Terbaru
+
+{% assign terbaru = site.posts | sort: "date" | reverse %}
+{% if terbaru.size > 0 %}
+<ul class="daftar-artikel">
+{% for a in terbaru limit: 5 %}
+  <li><a href="{{ a.url | relative_url }}">{{ a.title }}</a><br><small>{{ a.date | date: "%d-%m-%Y" }}{% if a.bidang %} &middot; Bidang {{ a.bidang }}{% endif %}{% if a.jenis %} &middot; {{ a.jenis }}{% endif %}</small>{% if a.ringkasan %}<br>{{ a.ringkasan | truncate: 180 }}{% endif %}</li>
+{% endfor %}
+</ul>
+{% else %}
+<p class="kerangka">Belum ada artikel. Artikel pertama akan tampil di sini setelah diterbitkan.</p>
+{% endif %}
+
 ## Cara Membaca di TerangHukum
 
 Setiap artikel punya dua lapis dalam satu halaman: **Penjelasan Sederhana** di bagian atas untuk pembaca awam, dan **Bedah Hukum** di bagian bawah untuk mahasiswa — lengkap dengan sumber resmi yang terverifikasi.
 
-<p class="kerangka">Kerangka beranda — artikel pertama akan tampil di sini setelah produksi konten diperintahkan.</p>
