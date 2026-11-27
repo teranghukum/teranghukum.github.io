@@ -6,4 +6,14 @@ bidang: "Pidana"
 ---
 # Bidang Pidana
 
-<p class="kerangka">Kerangka halaman — konten belum diproduksi. Menunggu instruksi lanjut boss.</p>
+Artikel-artikel TerangHukum di bidang hukum pidana: tindak pidana, proses peradilan, dan sanksi.
+
+{% assign semua = site.pages | concat: site.posts %}
+{% assign daftar = semua | where: "bidang", "Pidana" %}
+<ul class="daftar-artikel">
+{% for a in daftar %}
+{% if a.ringkasan %}
+  <li><a href="{{ a.url | relative_url }}">{{ a.title }}</a>{% if a.date %}<br><small>{{ a.date | date: "%d-%m-%Y" }}{% if a.jenis %} &middot; {{ a.jenis }}{% endif %}</small>{% endif %}</li>
+{% endif %}
+{% endfor %}
+</ul>
