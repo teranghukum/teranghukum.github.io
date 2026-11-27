@@ -130,7 +130,7 @@ Satu peringatan akurasi: frasa "Demi Keadilan Berdasarkan Ketuhanan Yang Maha Es
 
 > **SURAT DAKWAAN** — *Contoh ilustrasi untuk pembelajaran; nama dan peristiwa karangan.*
 > Bahwa ia Terdakwa **Andi Contoh** (nama samaran), pada hari Senin tanggal 5 Januari 2026, bertempat di sebuah minimarket di Kecamatan Sukamaju, telah mengambil satu unit telepon genggam milik saksi dengan maksud untuk dimiliki secara melawan hukum.
-> Perbuatan terdakwa sebagaimana diatur dan diancam pidana dalam Pasal 362 Kitab Undang-Undang Hukum Pidana.
+> Perbuatan terdakwa sebagaimana diatur dan diancam pidana dalam Pasal 476 Undang-Undang Nomor 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (pencurian; dalam KUHP lama diatur dalam Pasal 362).
 
 ### 8. Kotak perbandingan & peralihan: KUHAP lama vs KUHAP baru
 
@@ -154,10 +154,13 @@ Ketentuan peralihannya, Pasal 361 UU 20/2025: (a) perkara yang sedang dalam pros
 2. UU No. 8 Tahun 1981 tentang Hukum Acara Pidana (LN 1981 No. 76) — Pasal 51, 137–144, 156, 182 — hanya konteks peralihan/sejarah. Teks: JDIH Kementerian Keuangan.
 3. Putusan MK No. 28/PUU-XX/2022 (31 Oktober 2022), via Resume Info Judicial Review, Puspanlakuu, Badan Keahlian DPR RI — [berkas.dpr.go.id](https://berkas.dpr.go.id/puspanlakuu/info-judicial-review/info_judicial_review-public-132.pdf).
 4. UU No. 16 Tahun 2004 jo. UU No. 11 Tahun 2021 tentang Kejaksaan — Pasal 30 ayat (1) huruf a.
-5. Literatur akademik: Terok, Wongkar & Bawole (2021), "Syarat Materiil Surat Dakwaan Menurut Pandangan Doktrin serta Praktik Peradilan Pidana", *Lex Crimen* X(2); Mulkan (2020), "Status Terdakwa Setelah Surat Dakwaan Dinyatakan Batal Demi Hukum", *Doctrinal* 5(1); Pagar Alam, Husen & Ahmad (2020), "Efektivitas Penyusunan Surat Dakwaan oleh Penuntut Umum", *Journal of Lex Generalis* 1(6); Luis (2021), "Legalitas Ultra Petita dalam Hukum Acara Pidana", *Jurnal Hukum Adigama* 4(2).
-6. Sumber lembaga untuk praktik: Direktori Putusan Mahkamah Agung (putusan3.mahkamahagung.go.id); PID Polda Kepri, Polri, "Macam Bentuk Surat Dakwaan" (pid.kepri.polri.go.id).
+5. UU No. 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (LN 2023 No. 1) — Pasal 476 (pencurian; padanan Pasal 362 KUHP lama), untuk contoh ilustrasi.
+6. Literatur akademik: Terok, Wongkar & Bawole (2021), "Syarat Materiil Surat Dakwaan Menurut Pandangan Doktrin serta Praktik Peradilan Pidana", *Lex Crimen* X(2); Mulkan (2020), "Status Terdakwa Setelah Surat Dakwaan Dinyatakan Batal Demi Hukum", *Doctrinal* 5(1); Pagar Alam, Husen & Ahmad (2020), "Efektivitas Penyusunan Surat Dakwaan oleh Penuntut Umum", *Journal of Lex Generalis* 1(6); Luis (2021), "Legalitas Ultra Petita dalam Hukum Acara Pidana", *Jurnal Hukum Adigama* 4(2).
+7. Sumber lembaga untuk praktik: Direktori Putusan Mahkamah Agung (putusan3.mahkamahagung.go.id); PID Polda Kepri, Polri, "Macam Bentuk Surat Dakwaan" (pid.kepri.polri.go.id).
 
 Semua tautan diakses 27 November 2026.
+
+**Catatan Koreksi (27 November 2026):** Pada versi awal artikel ini, contoh ilustrasi surat dakwaan menyebut pencurian dengan rujukan Pasal 362 Kitab Undang-Undang Hukum Pidana (KUHP lama) tanpa label. Yang benar menurut hukum yang berlaku sekarang adalah Pasal 476 Undang-Undang Nomor 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (LN 2023 No. 1), terverifikasi 27 November 2026. Contoh di atas telah diperbarui dan kini mencantumkan kedua rujukan itu.
 
 ---
 
